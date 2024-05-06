@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #65aaf0;
+  font-family: sans-serif;
+}
+
+.navbar-background {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-warp {
+  color: white;
+}
+
+.left-warp h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-warp-links {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.right-warp-links a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.right-warp-links a:hover {
+  background-color: white;
+  color: black;
+}
+
+.home-page {
+  background-image: url("../images/homepage-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.formmsg {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#studentPro {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.father_boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.leftdiv {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+label {
+  color: white;
+  display: inline-block;
+  margin: 6px 0;
+  font-size: large;
+}
+
+.father_boxes input {
+  padding: 10px;
+}
+
+.rightdiv {
+  width: 40%;
+  height: 100px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+#form_btn {
+  background-color: #66a9f0;
+  color: white;
+  margin-top: 20px;
+  border: white 2px solid;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.form_input {
+  padding: 6px;
+}
+
+.leftdiv > div {
+  text-align: center;
+}
+
+.navfooter {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme,
+.myproject,
+.newsletter {
+  width: 400px;
+  margin: 10px;
+}
+
+.aboutme h1,
+.newsletter h1,
+.myproject h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.myproject,
+.myproject h1 {
+  text-align: center;
+}
+
+.aboutme .newsletter,
+p {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  max-width: 100%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#emailform {
+  padding: 30px 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#subbtn {
+  background-color: black;
+  color: white;
+  padding: 30px 66px;
+  border-color: white;
+  border-style: groove;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 900px) {
+  .home-page {
+    background-image: url("../images/homepage-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+
+  .navfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutme h1,
+  .aboutme p,
+  .newsletter h1,
+  .newsletter p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter {
+    text-align: center;
+  }
+
+  .formmsg {
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: none;
+  background-color: white;
+}
+
+#googlemaps {
+  width: 100%;
+  height: 100%;
+}
+
+.navfooter {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  align-items: center;
+}
+
+#dropmsg h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+#dropmsg p,
+form label {
+  color: rgb(163, 160, 160);
+  display: block;
+  width: 500px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 10px;
+}
